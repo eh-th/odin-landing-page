@@ -54,6 +54,7 @@ p {
     padding-left: 50px;
     padding-right: 50px;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
     padding-bottom: 50px;
 }
@@ -62,7 +63,7 @@ p {
     background-color: #e1e4e8;
     color: black;
     font-family: 'roboto',sans-serif;
-    height: 250px;
+    height: 200px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -74,7 +75,6 @@ button {
     border-radius: 25px;
     padding: 10px;
     background-color: #3882F6;
-
 }
 
 h2 {
@@ -107,14 +107,56 @@ h2 {
 .quote {
     background-color: #E5E7EB;
     padding: 50px;
-    font-style: italic;
     font-family: sans-serif;
 }
 
 h3 {
     text-align: right;
-    font-family: sans-serif;
     color: #1F2937;
     font-size: 36px
 
+}
+
+.quote p {
+    font-style: normal;
+    font-style: italic;
+
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin-top: 40px;
+    color: #e1e4e8;
+    margin-bottom: 50px;
+}
+
+.call p {
+    margin-top: 0px;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.button2 {
+    color: #e1e4e8;
+    border: 2px solid #e1e4e8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: sans-serif;
 }
