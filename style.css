@@ -26,10 +26,10 @@ ul {
 }
 
 h1 {
-    color: #E5E7EB;
+    color: #F9FAF8;
     font-family: 'roboto',sans-serif;
     font-weight: bold;
-    font-size: 40px;    
+    font-size: 48px;    
     margin-bottom: 0px;
 }
 
@@ -81,6 +81,9 @@ h2 {
     font-family: sans-serif;
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
 
 }
 
@@ -97,4 +100,21 @@ h2 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    width: 150px;
+    flex-basis: auto;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+h3 {
+    text-align: right;
+    font-family: sans-serif;
+    color: #1F2937;
+    font-size: 36px
+
 }
