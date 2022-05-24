@@ -76,3 +76,25 @@ button {
     background-color: #3882F6;
 
 }
+
+h2 {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.boxes {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
